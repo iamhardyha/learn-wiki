@@ -1,0 +1,20 @@
+# 개인 서재로 향하는 개발용 심볼릭 링크 — 절대 커밋 금지 (설계 D6)
+app/ui/library
+.shelf-dev/
+
+# 개인/업무 설정은 레포 밖에 둔다. 실수로 안에 만들었을 때의 방어선.
+.privacy-patterns
+book-layout.json
+*.local.json
+
+# 빌드 산출물
+app/Shelf.app/
+*.dSYM/
+
+# macOS
+.DS_Store
+
+# 의존성은 쓰지 않지만 실수 방지용
+node_modules/
+__pycache__/
+*.pyc
